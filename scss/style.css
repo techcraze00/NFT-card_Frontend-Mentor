@@ -30,7 +30,7 @@ body main .image-container {
   width: 100%;
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
 }
 body main .image-container .image {
@@ -167,7 +167,7 @@ body main .profile-container p .white-text:hover {
 @media screen and (min-width: 1024px) {
   body main {
     width: 25%;
-    border-radius: 10px;
+    border-radius: 15px;
   }
   body main .image-container {
     width: 100%;
