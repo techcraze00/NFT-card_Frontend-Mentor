@@ -1,0 +1,176 @@
+@use "./reset.scss";
+@use "./variable.scss" as *;
+
+body{
+    background-color: $vdBlueMain;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    main{
+        background-color: $vdBlueCard;
+        //height: fit-content;
+        width:85%;
+        padding: 25px;
+        font-family: $outfit;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+        
+
+        .image-container{
+            height: 270px;
+            width: 270px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+
+            .image{
+                height: 100%;
+                width: 100%;
+                display: block;
+                opacity: 1;
+                /*position: absolute;
+                object-fit: cover;
+                transition: 0.5 ease;
+                backface-visibility: hidden;*/
+            }
+
+            .overlay{
+                position: absolute;
+                height: 100%;
+                width:100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                opacity: 0;
+                background-color: $cyan;
+
+                transition: 0.3s ease-in-out;
+
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+
+                .viewport{
+                    opacity: 0;
+                    transition: 0.3s ease-in-out
+                }
+              }
+
+
+              &:hover{
+                .overlay{
+                    opacity: 0.5;
+                    
+                }
+
+                .viewport{
+                    opacity: 1;
+                }
+            }
+
+        }
+
+
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            h1{
+                cursor: pointer;
+                color: $white;
+                font-size: 22px;
+                font-weight: 400;
+                transition: 200ms ease-in-out;
+
+                &:hover{
+                    color: $cyan;
+                }
+      
+            }
+
+            p{
+                color: $softBlue;
+                font-weight: 300;
+                line-height: 1.8;
+            }
+        }
+
+        .icon-container{
+            display: flex;
+            justify-content: space-between ;
+            border-bottom: 1px solid $vdBlueLine;
+            padding: 0 0 20px 0;
+            
+
+            .ethereum{
+                
+                display: flex;
+                gap:8px;
+                img{
+                    width: 10px ;
+                }
+                h2{
+                    color: $cyan;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+
+            .clock{
+                display: flex;
+                align-items: center;
+                gap:5px;
+                img{
+                    height: 18px;
+                }
+                h2{
+                    color: $softBlue;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .profile-container{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            
+            img{
+                width: 35px;
+                border: 1px solid $white;
+                border-radius: 17.5px;
+            }
+
+            p{
+                .softblue-text{
+                    color: $softBlue;
+                    font-weight: 300;
+                }
+                .white-text{
+                    cursor: pointer;
+                    color: $white;
+                    font-weight: 300;
+                    transition:$white 200ms ease-in-out;
+                    
+                    &:hover{
+                        color: $cyan;
+                    }
+                }
+                
+
+            }
+        }
+        
+    }
+}
+

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main {
+  background-color: hsl(216, 50%, 16%);
+  width: 85%;
+  padding: 25px;
+  font-family: "Outfit", sans-serif;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+body main .image-container {
+  height: 270px;
+  width: 270px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+body main .image-container .image {
+  height: 100%;
+  width: 100%;
+  display: block;
+  opacity: 1;
+  /*position: absolute;
+  object-fit: cover;
+  transition: 0.5 ease;
+  backface-visibility: hidden;*/
+}
+body main .image-container .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: hsl(178, 100%, 50%);
+  transition: 0.3s ease-in-out;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+body main .image-container .overlay .viewport {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+body main .image-container:hover .overlay {
+  opacity: 0.5;
+}
+body main .image-container:hover .viewport {
+  opacity: 1;
+}
+body main .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body main .text-container h1 {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-weight: 400;
+  transition: 200ms ease-in-out;
+}
+body main .text-container h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+body main .text-container p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  line-height: 1.8;
+}
+body main .icon-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding: 0 0 20px 0;
+}
+body main .icon-container .ethereum {
+  display: flex;
+  gap: 8px;
+}
+body main .icon-container .ethereum img {
+  width: 10px;
+}
+body main .icon-container .ethereum h2 {
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+  font-weight: 600;
+}
+body main .icon-container .clock {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body main .icon-container .clock img {
+  height: 18px;
+}
+body main .icon-container .clock h2 {
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  font-weight: 400;
+}
+body main .profile-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body main .profile-container img {
+  width: 35px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 17.5px;
+}
+body main .profile-container p .softblue-text {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+body main .profile-container p .white-text {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  transition: hsl(0, 0%, 100%) 200ms ease-in-out;
+}
+body main .profile-container p .white-text:hover {
+  color: hsl(178, 100%, 50%);
+}/*# sourceMappingURL=style.css.map */
