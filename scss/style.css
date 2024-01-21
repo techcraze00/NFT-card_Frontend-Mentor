@@ -146,7 +146,7 @@ body main .profile-container p .white-text:hover {
 
 @media screen and (min-width: 820px) {
   body main {
-    width: 324px;
+    width: 30%;
   }
   body main .image-container label {
     margin-top: 10px;
@@ -164,11 +164,11 @@ body main .profile-container p .white-text:hover {
 }
 @media screen and (min-width: 1024px) {
   body main {
-    width: 40%;
+    width: 25%;
     border-radius: 10px;
   }
   body main .image-container {
-    width: auto;
+    width: 270px;
     border-radius: 8px;
   }
   body main .text-container h1 {
