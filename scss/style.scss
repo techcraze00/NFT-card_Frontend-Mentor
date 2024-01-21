@@ -174,3 +174,52 @@ body{
     }
 }
 
+
+
+
+//Tablet version
+@media screen and (min-width: 820px) {
+    body {
+      main {
+        width: 40%;
+  
+        .image-container {
+          label {
+            margin-top: 10px;
+            font-size: 14px;
+          }
+  
+          p {
+            font-size: 14px;
+          }
+        }
+  
+        .text-container {
+          h1 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+//Desktop version
+
+@media screen and (min-width: 1024px){
+    body{
+    
+        main{
+            width:324px;
+
+            .text-container{
+                p{
+                    font-size: 16px;
+                }
+            }
+
+        }
+    }
+}

@@ -141,4 +141,31 @@ body main .profile-container p .white-text {
 }
 body main .profile-container p .white-text:hover {
   color: hsl(178, 100%, 50%);
+}
+
+@media screen and (min-width: 820px) {
+  body main {
+    width: 40%;
+  }
+  body main .image-container label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  body main .image-container p {
+    font-size: 14px;
+  }
+  body main .text-container h1 {
+    font-size: 24px;
+  }
+  body main .text-container p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body main {
+    width: 324px;
+  }
+  body main .text-container p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
