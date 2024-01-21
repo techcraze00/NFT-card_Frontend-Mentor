@@ -77,7 +77,7 @@ body main .text-container h1 {
   cursor: pointer;
   color: hsl(0, 0%, 100%);
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 6 0;
   transition: 200ms ease-in-out;
 }
 body main .text-container h1:hover {
@@ -123,6 +123,7 @@ body main .profile-container {
   display: flex;
   align-items: center;
   gap: 15px;
+  padding: 5px;
 }
 body main .profile-container img {
   width: 35px;
@@ -163,9 +164,17 @@ body main .profile-container p .white-text:hover {
 }
 @media screen and (min-width: 1024px) {
   body main {
-    width: 324px;
+    width: 22%;
+    border-radius: 10px;
   }
-  body main .text-container p {
-    font-size: 16px;
+  body main .image-container {
+    width: auto;
+    border-radius: 8px;
+  }
+  body main .text-container h1 {
+    font-weight: 400;
+  }
+  body main .icon-container .ethereum h2 {
+    font-weight: 400;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -19,6 +19,8 @@ body{
         display: flex;
         flex-direction: column;
         gap:25px;
+
+        //box-shadow: 10px 20px rgb(199, 196, 221) , -10px 20px rgb(199, 196, 221) ;
         
 
         .image-container{
@@ -88,7 +90,7 @@ body{
                 cursor: pointer;
                 color: $white;
                 font-size: 22px;
-                font-weight: 400;
+                font-weight: 6  00;
                 transition: 200ms ease-in-out;
 
                 &:hover{
@@ -144,6 +146,7 @@ body{
             display: flex;
             align-items: center;
             gap: 15px;
+            padding: 5px;
             
             img{
                 width: 35px;
@@ -212,11 +215,25 @@ body{
     body{
     
         main{
-            width:324px;
+            width:22%;
+            border-radius: 10px;
+            
+            .image-container{
+                width: auto;
+                border-radius: 8px;
+            }
 
             .text-container{
-                p{
-                    font-size: 16px;
+                h1{
+                    font-weight: 400;
+                }
+            }
+
+            .icon-container{
+                .ethereum{
+                    h2{
+                        font-weight: 400;
+                    }
                 }
             }
 
