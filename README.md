@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-- Mobile View: [mobile.view]()
-- Desktop View: [desktop.view]()
+- Mobile View: [mobile.view](https://github.com/techcraze00/NFT-card_Frontend-Mentor/blob/main/Screenshots/mobile%20(2).png)
+- Desktop View: [desktop.view](https://github.com/techcraze00/NFT-card_Frontend-Mentor/blob/main/Screenshots/desk.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/techcraze00/NFT-card_Frontend-Mentor/tree/main)
+- Live Site URL: [Add live site URL here](https://techcraze00.github.io/NFT-card_Frontend-Mentor/)
 
 ## My process
 
@@ -47,11 +47,6 @@ I have carefully made divisions as per the provided design and guidelines. The a
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -59,27 +54,12 @@ Thorough this project I learned to use hover effects like overlay and colouring 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Three are some issues in this project related to the hoverig over the main image, I would be working over that issue in near future. You are welcomed to help as well.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Github - [@techcraze00](https://github.com/techcraze00)
+- Frontend Mentor - [@prayasjadhav](https://www.frontendmentor.io/profile/prayasjadhav)
+- LinkedIn - [@Prayas Jadhav](https://www.linkedin.com/in/prayas-jadhav-9b4404238/)
+- Instagram - [@prayas.jadhav](https://www.instagram.com/prayas.jadhav/)
+- Secondary Instagram Account - [@official.artodyssey](https://www.instagram.com/official.artodyssey/)
