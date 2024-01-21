@@ -164,7 +164,7 @@ body main .profile-container p .white-text:hover {
 }
 @media screen and (min-width: 1024px) {
   body main {
-    width: 22%;
+    width: 30%;
     border-radius: 10px;
   }
   body main .image-container {
