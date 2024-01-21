@@ -145,7 +145,7 @@ body main .profile-container p .white-text:hover {
 
 @media screen and (min-width: 820px) {
   body main {
-    width: 40%;
+    width: 324px;
   }
   body main .image-container label {
     margin-top: 10px;
