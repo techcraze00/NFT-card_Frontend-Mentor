@@ -45,8 +45,6 @@ body main .image-container .image {
 }
 body main .image-container .overlay {
   position: absolute;
-  height: 100%;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
