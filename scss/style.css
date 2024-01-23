@@ -175,6 +175,9 @@ body main .profile-container p .white-text:hover {
   body main .text-container h1 {
     font-weight: 400;
   }
+  body main .text-container p {
+    font-size: 18px;
+  }
   body main .icon-container .ethereum h2 {
     font-weight: 400;
   }
